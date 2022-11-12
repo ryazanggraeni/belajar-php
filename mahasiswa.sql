@@ -30,3 +30,5 @@ tanggal_lahir DATE NOT NULL,
 alamat VARCHAR(255) NOT NULL,
 FOREIGN KEY (id_jurusan) REFERENCES jurusan(id)
 );
+
+-- mahasiswa
